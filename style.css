@@ -1,0 +1,56 @@
+html,body {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+input[type="range"] {
+    height: 10px;
+    -webkit-appearance:inherit;
+    margin: 10px 0;
+    width: 159px;
+    background-color: #2ead29;
+    outline: none;
+}
+
+span {
+    max-width: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.tip-value {
+    text-align: right;
+}
+
+.check {
+    display: inline;
+    width: 190px;
+    text-align: center;
+    justify-content: center;
+}
+
+.total {
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+}
+
+.confirm input[type="text"] {
+    width: 124px;
+    text-align: left;
+}
+
+input[type="number"] {
+    text-align: left;
+} 
+
+.container {
+    padding: 15px;
+    outline: gray solid 2px;
+    width: 201px;  
+    margin: 0 auto;
+}
